@@ -5,7 +5,7 @@ const EventDetails = () => {
   const features = [
     { icon: Wine, label: "Glühwein", description: "Warmer Glühwein zum Aufwärmen" },
     { icon: UtensilsCrossed, label: "Bratwurst", description: "Leckere Bratwurst vor Ort" },
-    { icon: Sticker, label: "Sticker", description: "Exklusive Event-Sticker" },
+    { icon: Sticker, label: "Frequenz-Sticker", description: "Sticker zur Frequenzübersicht" },
     { icon: Projector, label: "Beamer", description: "FPV-Feeds & Präsentationen" },
     { icon: Music, label: "Musik", description: "Atmosphärische Hintergrundmusik" },
   ];

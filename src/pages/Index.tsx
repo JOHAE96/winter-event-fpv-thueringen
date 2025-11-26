@@ -25,7 +25,7 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4 py-20 text-center">
           <div className="inline-block mb-6 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full">
             <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-              Winter 2024
+              Winter 2025
             </span>
           </div>
 
@@ -33,10 +33,14 @@ const Index = () => {
             Winter FPV Meetup
           </h1>
 
+          <p className="text-lg text-muted-foreground mb-8">
+            organisiert von <span className="text-primary font-semibold">FPV Thüringen</span>
+          </p>
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12 text-lg">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-primary" />
-              <span className="text-foreground">24. Dezember 2024</span>
+              <span className="text-foreground">24. Dezember 2025</span>
             </div>
             <div className="hidden sm:block w-1 h-1 rounded-full bg-primary" />
             <div className="flex items-center gap-2">
@@ -84,7 +88,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>Winter FPV Meetup 2024 • Gasmaschinenzentrale Unterwellenborn</p>
+          <p>Winter FPV Meetup 2025 • Organisiert von FPV Thüringen</p>
+          <p className="text-sm mt-2">Gasmaschinenzentrale Unterwellenborn</p>
         </div>
       </footer>
     </div>
